@@ -6,13 +6,13 @@
         xmlns:local="clr-namespace:ProjectApplication.Properties"
         mc:Ignorable="d"
         Title="MainTheme" Height="350" Width="700">
-    <Grid Background="#FF546FE6">
-        <Button HorizontalAlignment="Left" Width="350" Background="#FF546FE6" BorderThickness="0" Margin="20">
+    <Grid>
+        <Button HorizontalAlignment="Left" Width="327.162" BorderThickness="0" Margin="20,20,0,20" Background="White" BorderBrush="White">
             <Grid>
                 <Image Source="watch_350x350.png"/>
             </Grid>
         </Button>
-        <Button HorizontalAlignment="Right" Width="342" Background="#FF546FE6" BorderThickness="0" d:LayoutOverrides="HorizontalAlignment" Margin="20">
+        <Button HorizontalAlignment="Right" Width="321.445" BorderThickness="0" d:LayoutOverrides="HorizontalAlignment" Margin="0,20,20.555,20" Background="White">
             <Grid>
                 <Image Source="calendar_350x350.png"/>
             </Grid>

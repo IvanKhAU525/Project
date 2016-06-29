@@ -70,6 +70,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Time.cs" />
     <Compile Include="Watch.xaml.cs">
       <DependentUpon>Watch.xaml</DependentUpon>
     </Compile>

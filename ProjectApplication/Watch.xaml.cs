@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace ProjectApplication
 {
@@ -18,10 +19,24 @@ namespace ProjectApplication
     /// Логика взаимодействия для Calendar.xaml
     /// </summary>
     public partial class Watch : Window
-    {
+    { 
         public Watch()
         {
             InitializeComponent();
+            startclock();
+        }
+
+        private void startclock()
+        {
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += tickevent;
+            timer.Start();
+        }
+
+        private void tickevent(object sender, EventArgs e)
+        {
+            
         }
     }
 }

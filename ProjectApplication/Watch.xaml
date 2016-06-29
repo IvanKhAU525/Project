@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="Watch" Height="508.65" Width="987.338">
     <Grid Margin="10" HorizontalAlignment="Right" Width="967.338" d:LayoutOverrides="LeftMargin, RightMargin" Height="477.65" VerticalAlignment="Top">
-        <Rectangle x:Name="hour_a" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="112,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="hour_b" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="113,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="hour_c" Fill="#FFF4F4F5" Margin="150,132.5,0,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="8" d:LayoutOverrides="Height">
+        <Rectangle x:Name="hour_a" HorizontalAlignment="Left" Margin="112,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="hour_b" HorizontalAlignment="Left" Margin="113,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="hour_c" Margin="150,132.5,0,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="8" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -19,7 +19,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="hour_d" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="150,206.5,0,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="hour_d" HorizontalAlignment="Left" Margin="150,206.5,0,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -29,7 +29,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="hour_e" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="149,282.5,0,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="hour_e" HorizontalAlignment="Left" Margin="149,282.5,0,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -39,11 +39,11 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="hour_f" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="186,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="hour_g" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="187,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="hour_a_" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="207,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="hour_b_" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="208,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="hour_c_" Fill="#FFF4F4F5" Margin="245,132.5,0,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="8" d:LayoutOverrides="Height">
+        <Rectangle x:Name="hour_f" HorizontalAlignment="Left" Margin="186,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="hour_g" HorizontalAlignment="Left" Margin="187,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="hour_a_" HorizontalAlignment="Left" Margin="207,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="hour_b_" HorizontalAlignment="Left" Margin="208,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="hour_c_" Margin="245,132.5,0,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="8" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -53,7 +53,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="hour_d_" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="245,206.5,0,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="hour_d_" HorizontalAlignment="Left" Margin="245,206.5,0,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -63,7 +63,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="hour_e_" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="244,282.5,0,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="hour_e_" HorizontalAlignment="Left" Margin="244,282.5,0,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -73,11 +73,11 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="hour_f_" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="281,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="hour_g_" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="282,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="min_a" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="389.5,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="min_b" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="390.5,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="min_c" Fill="#FFF4F4F5" Margin="427.5,132.5,0,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="8" d:LayoutOverrides="Height">
+        <Rectangle x:Name="hour_f_" HorizontalAlignment="Left" Margin="281,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="hour_g_" HorizontalAlignment="Left" Margin="282,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="min_a" HorizontalAlignment="Left" Margin="389.5,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="min_b" HorizontalAlignment="Left" Margin="390.5,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="min_c" Margin="427.5,132.5,0,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="8" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -87,7 +87,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="min_d" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="427.5,206.5,0,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="min_d" HorizontalAlignment="Left" Margin="427.5,206.5,0,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -97,7 +97,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="min_e" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="426.5,282.5,0,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="min_e" HorizontalAlignment="Left" Margin="426.5,282.5,0,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -107,11 +107,11 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="min_f" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="463.5,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="min_g" Fill="#FFF4F4F5" HorizontalAlignment="Left" Margin="464.5,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="min_a_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,0,474.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="min_b_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,170.5,473.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="min_c_" Fill="#FFF4F4F5" Margin="0,132.5,438.838,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="8" d:LayoutOverrides="Height">
+        <Rectangle x:Name="min_f" HorizontalAlignment="Left" Margin="463.5,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="min_g" HorizontalAlignment="Left" Margin="464.5,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="min_a_" HorizontalAlignment="Right" Margin="0,0,474.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="min_b_" HorizontalAlignment="Right" Margin="0,170.5,473.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="min_c_" Margin="0,132.5,438.838,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="8" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -121,7 +121,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="min_d_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,206.5,438.838,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="min_d_" HorizontalAlignment="Right" Margin="0,206.5,438.838,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -131,7 +131,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="min_e_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,282.5,439.838,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="min_e_" HorizontalAlignment="Right" Margin="0,282.5,439.838,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -141,11 +141,11 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="min_f_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,0,402.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="min_g_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,170.5,401.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="sec_a" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,0,304.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="sec_b" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,170.5,303.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="sec_c" Fill="#FFF4F4F5" Margin="0,132.5,266.838,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="8" d:LayoutOverrides="Height">
+        <Rectangle x:Name="min_f_" HorizontalAlignment="Right" Margin="0,0,402.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="min_g_" HorizontalAlignment="Right" Margin="0,170.5,401.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="sec_a" HorizontalAlignment="Right" Margin="0,0,304.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="sec_b" HorizontalAlignment="Right" Margin="0,170.5,303.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="sec_c" Margin="0,132.5,266.838,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="8" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -155,7 +155,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="sec_d" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,206.5,266.838,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="sec_d" HorizontalAlignment="Right" Margin="0,206.5,266.838,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -165,7 +165,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="sec_e" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,282.5,267.838,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="sec_e" HorizontalAlignment="Right" Margin="0,282.5,267.838,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -175,11 +175,11 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="sec_f" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,0,230.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="sec_g" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,170.5,229.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="sec_a_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,0,209.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="sec_b_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,170.5,208.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="sec_c_" Fill="#FFF4F4F5" Margin="0,132.5,171.838,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="8" d:LayoutOverrides="Height">
+        <Rectangle x:Name="sec_f" HorizontalAlignment="Right" Margin="0,0,230.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="sec_g" HorizontalAlignment="Right" Margin="0,170.5,229.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="sec_a_" HorizontalAlignment="Right" Margin="0,0,209.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="sec_b_" HorizontalAlignment="Right" Margin="0,170.5,208.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="sec_c_" Margin="0,132.5,171.838,0" Stroke="Black" Height="60" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="8" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -189,7 +189,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="sec_d_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,206.5,171.838,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="sec_d_" HorizontalAlignment="Right" Margin="0,206.5,171.838,211.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -199,7 +199,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="sec_e_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,282.5,172.838,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="sec_e_" HorizontalAlignment="Right" Margin="0,282.5,172.838,135.15" Stroke="Black" Width="8" Height="60" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" Fill="#FFF4F4F5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -209,12 +209,12 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <Rectangle x:Name="sec_f_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,0,135.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height"/>
-        <Rectangle x:Name="sec_g_" Fill="#FFF4F4F5" HorizontalAlignment="Right" Margin="0,170.5,134.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
-        <Ellipse x:Name="dot_hour_up" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="20" Margin="331,210.5,0,0" Stroke="Black" VerticalAlignment="Top" Width="20"/>
-        <Ellipse x:Name="dot_hour_down" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="20" Margin="331,0,0,211.15" Stroke="Black" VerticalAlignment="Bottom" Width="20"/>
-        <Ellipse x:Name="dot_min_up" Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="20" Margin="0,210.5,343.338,0" Stroke="Black" VerticalAlignment="Top" Width="20"/>
-        <Ellipse x:Name="dot_min_down" Fill="#FFF4F4F5" HorizontalAlignment="Right" Height="20" Margin="0,0,343.338,211.15" Stroke="Black" VerticalAlignment="Bottom" Width="20"/>
-        <Label x:Name="label" Content="La" HorizontalAlignment="Left" Height="24" Margin="121,0,0,79.65" VerticalAlignment="Bottom" Width="134"/>
+        <Rectangle x:Name="sec_f_" HorizontalAlignment="Right" Margin="0,0,135.838,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Rectangle x:Name="sec_g_" HorizontalAlignment="Right" Margin="0,170.5,134.838,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Ellipse x:Name="dot_hour_up" HorizontalAlignment="Left" Height="20" Margin="331,210.5,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Ellipse x:Name="dot_hour_down" HorizontalAlignment="Left" Height="20" Margin="331,0,0,211.15" Stroke="Black" VerticalAlignment="Bottom" Width="20" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Ellipse x:Name="dot_min_up" HorizontalAlignment="Right" Height="20" Margin="0,210.5,343.338,0" Stroke="Black" VerticalAlignment="Top" Width="20" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Ellipse x:Name="dot_min_down" HorizontalAlignment="Right" Height="20" Margin="0,0,343.338,211.15" Stroke="Black" VerticalAlignment="Bottom" Width="20" OpacityMask="Black" Fill="#FFF4F4F5"/>
+        <Label x:Name="label" Content="La" HorizontalAlignment="Left" Height="24" Margin="121,0,0,79.65" VerticalAlignment="Bottom" Width="134" OpacityMask="Black"/>
     </Grid>
 </Window>

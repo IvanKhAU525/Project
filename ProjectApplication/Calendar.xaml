@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectApplication"
         mc:Ignorable="d"
-        Title="Calendar" Height="300" Width="300">
+        Title="Calendar" Height="309.247" Width="344.178" Background="#FF32BB09" ResizeMode="CanMinimize">
     <Grid>
-        
+        <Calendar Margin="50,50,50,50" d:LayoutOverrides="Width, Height"/>
     </Grid>
 </Window>

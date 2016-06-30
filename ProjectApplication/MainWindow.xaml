@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectApplication.Properties"
         mc:Ignorable="d"
-        Title="MainTheme" Height="462.683" Width="744.391" Background="#FF8EAEF1">
+        Title="MainTheme" Height="462.683" Width="744.391" ResizeMode="CanMinimize">
     <Grid>
         <Menu>
-            <MenuItem Header="Инструкция" BorderThickness="0.5" BorderBrush="Black"/>
+            <MenuItem Header="Инструкция" BorderThickness="0.5" BorderBrush="Black" FontSize="16" FontFamily="Calibri" FontWeight="Bold" Background="#FF2F7FF3"/>
             <Label x:Name="label" Content="Label"/>
         </Menu>
         <Button x:Name="button_watch" HorizontalAlignment="Left" Width="327.162" Height="300" BorderThickness="0" Margin="20,20,0,20" BorderBrush="White" MouseEnter="button_watch_MouseEnter" MouseLeave="button_watch_MouseLeave" Background="#FFF0F0F0" Click="button_watch_Click">
@@ -16,7 +16,7 @@
                 <Image Source="watch_350x350.png"/>
             </Grid>
         </Button>
-        <Button x:Name="button_calendar" HorizontalAlignment="Right" Width="327.162" Height="300" BorderThickness="0" d:LayoutOverrides="HorizontalAlignment" Margin="0,20,20.555,20" Background="#FFF0F0F0" MouseEnter="button_calendar_MouseEnter" MouseLeave="button_calendar_MouseLeave">
+        <Button x:Name="button_calendar" HorizontalAlignment="Right" Width="327.162" Height="300" BorderThickness="0" d:LayoutOverrides="HorizontalAlignment" Margin="0,20,20.555,20" Background="#FFF0F0F0" MouseEnter="button_calendar_MouseEnter" MouseLeave="button_calendar_MouseLeave" Click="button_calendar_Click">
             <Grid>
                 <Image Source="calendar_350x350.png"/>
             </Grid>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectApplication"
         mc:Ignorable="d"
-        Title="Watch" Height="508.65" Width="987.338">
+        Title="Watch" Height="508.65" Width="987.338" ResizeMode="CanMinimize">
     <Grid Margin="10" HorizontalAlignment="Right" Width="967.338" d:LayoutOverrides="LeftMargin, RightMargin" Height="477.65" VerticalAlignment="Top" Background="Black">
         <Rectangle x:Name="hour_a" HorizontalAlignment="Left" Margin="112,0,0,171.15" Stroke="Black" Width="8" Height="60" VerticalAlignment="Bottom" d:LayoutOverrides="Height" OpacityMask="Black" Fill="Gray"/>
         <Rectangle x:Name="hour_b" HorizontalAlignment="Left" Margin="113,170.5,0,0" Stroke="Black" Width="8" Height="60" VerticalAlignment="Top" d:LayoutOverrides="Height" OpacityMask="Black" Fill="Gray"/>

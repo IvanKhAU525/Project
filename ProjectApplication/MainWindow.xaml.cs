@@ -103,5 +103,11 @@ namespace ProjectApplication
             Watch f = new Watch();
             f.Show();
         }
+
+        private void button_calendar_Click(object sender, RoutedEventArgs e)
+        {
+            Calendar f = new Calendar();
+            f.Show();
+        }
     }
 }
